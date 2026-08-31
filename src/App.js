@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
 const downloadUrl =
-"https://github.com/Rogith01/invoice/releases/latest";
+  "https://github.com/Rogith01/invoice/releases/latest/download/BILLQORA-POS-Setup.exe";
 
 const appUrl = "https://billqora.netlify.app";
 
@@ -32,14 +32,13 @@ return ( <div className="website"> <header className="navbar"> <div className="l
         </p>
 
         <div className="hero-buttons">
-          <a
-            className="primary-button"
-            href={downloadUrl}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Download BILLQORA
-          </a>
+<a
+  className="primary-button"
+  href={downloadUrl}
+  download
+>
+  Download BILLQORA
+</a>
 
           <a
             className="secondary-button"
@@ -158,14 +157,13 @@ return ( <div className="website"> <header className="navbar"> <div className="l
         supermarket with a modern POS system.
       </p>
 
-      <a
-        className="primary-button"
-        href={downloadUrl}
-        target="_blank"
-        rel="noreferrer"
-      >
-        Download BILLQORA for Windows
-      </a>
+<a
+  className="primary-button"
+  href={downloadUrl}
+  download
+>
+  Download BILLQORA for Windows
+</a>
     </section>
   </main>
 
