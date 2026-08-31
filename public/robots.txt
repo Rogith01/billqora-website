@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-PUBLIC-SITE.netlify.app/sitemap.xml
+Sitemap: https://billqora-pos.netlify.app/sitemap.xml
