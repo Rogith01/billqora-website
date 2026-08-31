@@ -5,7 +5,7 @@ function App() {
   const downloadUrl =
     "https://github.com/Rogith01/invoice/releases/latest/download/BILLQORA-POS-Setup.exe";
 
-  const appUrl = "https://billqora.netlify.app";
+
 
   const email = "akrogith777@gmail.com";
   const whatsappNumber = "9629314051";
