@@ -1210,61 +1210,6 @@ a {
 
 
 /* ============================================================
-   TRUST BAR
-============================================================ */
-
-.trust-bar {
-  max-width: 900px;
-
-  margin:
-    -1px auto 0;
-
-  padding:
-    28px 7%;
-
-  display: grid;
-
-  grid-template-columns:
-    repeat(4, 1fr);
-
-  gap: 15px;
-
-  border-bottom:
-    1px solid #e5e7eb;
-}
-
-.trust-bar div {
-  text-align: center;
-
-  display: flex;
-
-  flex-direction: column;
-
-  gap: 4px;
-
-  transition:
-    transform 0.25s ease;
-}
-
-.trust-bar div:hover {
-  transform:
-    translateY(-3px);
-}
-
-.trust-bar strong {
-  font-size: 14px;
-
-  color: #1e293b;
-}
-
-.trust-bar span {
-  font-size: 11px;
-
-  color: #94a3b8;
-}
-
-
-/* ============================================================
    GENERAL SECTION
 ============================================================ */
 
@@ -2395,16 +2340,6 @@ footer {
   }
 
 
-  /* TRUST */
-
-  .trust-bar {
-    grid-template-columns:
-      repeat(2, 1fr);
-
-    padding:
-      25px 5%;
-  }
-
 
   /* SECTIONS */
 
@@ -2568,10 +2503,179 @@ footer {
   }
 
 
-  /* TRUST */
+  
+}
+/* ============================================================
+   PRODUCT DEMO
+============================================================ */
 
-  .trust-bar {
-    gap:
-      20px 10px;
+.demo-section {
+  padding: 110px 7%;
+  background: #f8fafc;
+  position: relative;
+  overflow: hidden;
+}
+
+.demo-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.demo-heading {
+  max-width: 720px;
+  margin: 0 auto 45px;
+  text-align: center;
+}
+
+.demo-heading h2 {
+  margin-bottom: 16px;
+}
+
+.demo-heading p:last-child {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ============================================================
+   VIDEO CARD
+============================================================ */
+
+.demo-video-card {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow:
+    0 25px 60px rgba(15, 23, 42, 0.12),
+    0 8px 25px rgba(15, 23, 42, 0.06);
+}
+
+
+/* ============================================================
+   VIDEO TOP BAR
+============================================================ */
+
+.demo-video-topbar {
+  height: 48px;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  background: #0f172a;
+  color: #cbd5e1;
+
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.demo-video-dots {
+  position: absolute;
+  left: 20px;
+
+  display: flex;
+  gap: 7px;
+}
+
+.demo-video-dots span {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #64748b;
+}
+
+
+/* ============================================================
+   VIDEO
+============================================================ */
+
+.demo-video {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  max-height: 650px;
+
+  background: #020617;
+}
+
+
+/* ============================================================
+   DEMO FEATURE TAGS
+============================================================ */
+
+.demo-features {
+  max-width: 1000px;
+
+  margin: 28px auto 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.demo-features span {
+  padding: 9px 15px;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+
+  color: #475569;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  box-shadow: 0 3px 10px rgba(15, 23, 42, 0.04);
+}
+
+
+/* ============================================================
+   MOBILE
+============================================================ */
+
+@media (max-width: 768px) {
+
+  .demo-section {
+    padding: 75px 5%;
   }
+
+  .demo-video-card {
+    border-radius: 16px;
+  }
+
+  .demo-video-topbar {
+    height: 42px;
+    font-size: 10px;
+  }
+
+  .demo-video-dots {
+    left: 14px;
+  }
+
+  .demo-video-dots span {
+    width: 7px;
+    height: 7px;
+  }
+
+  .demo-features {
+    gap: 8px;
+  }
+
+  .demo-features span {
+    font-size: 11px;
+    padding: 7px 11px;
+  }
+
 }

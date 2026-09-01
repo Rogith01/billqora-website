@@ -5,8 +5,6 @@ function App() {
   const downloadUrl =
     "https://github.com/Rogith01/invoice/releases/latest/download/BILLQORA-POS-Setup.exe";
 
-
-
   const email = "akrogith777@gmail.com";
   const whatsappNumber = "9629314051";
 
@@ -24,8 +22,13 @@ function App() {
         </div>
 
         <nav>
+
           <a href="#features">
             Features
+          </a>
+
+          <a href="#demo">
+            Demo
           </a>
 
           <a href="#why-billqora">
@@ -42,6 +45,7 @@ function App() {
           >
             Download
           </a>
+
         </nav>
 
       </header>
@@ -86,10 +90,13 @@ function App() {
             ================================================= */}
 
             <h1>
+
               Simple & Powerful
+
               <span>
                 Supermarket POS
               </span>
+
             </h1>
 
 
@@ -98,9 +105,11 @@ function App() {
             ================================================= */}
 
             <p className="hero-text">
+
               Manage billing, cash registers, inventory,
               customers, loyalty points and daily store
               operations from one simple and powerful POS system.
+
             </p>
 
 
@@ -115,6 +124,7 @@ function App() {
                 href={downloadUrl}
                 download
               >
+
                 Download BILLQORA
 
                 <span>
@@ -122,8 +132,22 @@ function App() {
                 </span>
 
               </a>
+              <a
+                className="primary-button"
+                href={`mailto:${email}?subject=BILLQORA%20Store%20Activation`}
+                
+              >
+
+                Request Store ID
+
+                                <span>
+                  ?
+                </span>
+
+              </a>
 
             </div>
+            
 
 
             {/* =================================================
@@ -131,7 +155,9 @@ function App() {
             ================================================= */}
 
             <p className="windows-text">
+
               Windows desktop application • Automatic updates
+
             </p>
 
 
@@ -158,7 +184,9 @@ function App() {
                   </div>
 
                   <span className="preview-label">
+
                     BILLQORA POS
+
                   </span>
 
                 </div>
@@ -210,17 +238,23 @@ function App() {
 
 
                 <p>
+
                   Downloading BILLQORA is free, but a valid
+
                   <strong>
                     {" "}Store ID and account activation
                   </strong>
+
                   {" "}are required to use the POS system.
+
                 </p>
 
 
                 <p className="access-subtext">
+
                   Contact us to create your store account,
                   receive your Store ID and get started.
+
                 </p>
 
 
@@ -258,63 +292,132 @@ function App() {
 
 
         {/* =====================================================
-            TRUST BAR
+            PRODUCT DEMO
         ===================================================== */}
 
-        <section className="trust-bar">
+        <section
+          id="demo"
+          className="demo-section"
+        >
 
-          <div>
+          <div className="demo-container">
 
-            <strong>
-              ⚡ Fast
-            </strong>
+            {/* =================================================
+                DEMO HEADING
+            ================================================= */}
 
-            <span>
-              Billing
-            </span>
+            <div className="section-heading demo-heading">
 
-          </div>
-
-
-          <div>
-
-            <strong>
-              🔒 Secure
-            </strong>
-
-            <span>
-              Store Access
-            </span>
-
-          </div>
+              <p className="small-title">
+                BILLQORA IN ACTION
+              </p>
 
 
-          <div>
-
-            <strong>
-              ☁️ Cloud
-            </strong>
-
-            <span>
-              Connected
-            </span>
-
-          </div>
+              <h2>
+                See BILLQORA in action
+              </h2>
 
 
-          <div>
+              <p>
+                From fast billing to inventory, customers,
+                cash register and reports — everything your
+                store needs in one simple POS system.
+              </p>
 
-            <strong>
-              🔄 Automatic
-            </strong>
+            </div>
 
-            <span>
-              Updates
-            </span>
+
+            {/* =================================================
+                DEMO VIDEO
+            ================================================= */}
+
+            <div className="demo-video-card">
+
+              {/* Video browser-style top bar */}
+
+              <div className="demo-video-topbar">
+
+                <div className="demo-video-dots">
+
+                  <span />
+                  <span />
+                  <span />
+
+                </div>
+
+
+                <span>
+                  BILLQORA POS • PRODUCT DEMO
+                </span>
+
+              </div>
+
+
+              {/* =================================================
+                  BILLQORA DEMO VIDEO
+
+                  Place video here:
+
+                  public/videos/billqora-demo.mp4
+              ================================================= */}
+
+              <video
+                className="demo-video"
+                controls
+                playsInline
+                preload="metadata"
+              >
+
+                <source
+                  src="/videos/billqora-demo.mp4"
+                  type="video/mp4"
+                />
+
+                Your browser does not support the video tag.
+
+              </video>
+
+            </div>
+
+
+            {/* =================================================
+                DEMO FEATURES
+            ================================================= */}
+
+            <div className="demo-features">
+
+              <span>
+                ⚡ Fast Billing
+              </span>
+
+              <span>
+                📊 Sales & Reports
+              </span>
+
+              <span>
+                📦 Inventory
+              </span>
+
+              <span>
+                👥 Customer Management
+              </span>
+
+              <span>
+                💰 Cash Register
+              </span>
+
+              <span>
+                ⭐ Loyalty Points
+              </span>
+              
+              
+
+            </div>
 
           </div>
 
         </section>
+
 
 
         {/* =====================================================
@@ -577,6 +680,7 @@ function App() {
               href={downloadUrl}
               download
             >
+
               Download BILLQORA for Windows
 
               <span>
@@ -764,6 +868,11 @@ function App() {
             </a>
 
 
+            <a href="#demo">
+              Demo
+            </a>
+
+
             <a href="#why-billqora">
               Why BILLQORA
             </a>
@@ -808,3 +917,4 @@ function App() {
 }
 
 export default App;
+
