@@ -22,7 +22,6 @@ function App() {
         </div>
 
         <nav>
-
           <a href="#features">
             Features
           </a>
@@ -45,7 +44,6 @@ function App() {
           >
             Download
           </a>
-
         </nav>
 
       </header>
@@ -86,35 +84,31 @@ function App() {
 
 
             {/* =================================================
-                HERO TITLE
+                SEO HERO TITLE
             ================================================= */}
 
             <h1>
-
-              Simple & Powerful
-
+              BILLQORA
               <span>
-                Supermarket POS
+                Supermarket POS & Billing Software
               </span>
-
             </h1>
 
 
             {/* =================================================
-                HERO DESCRIPTION
+                SEO HERO DESCRIPTION
             ================================================= */}
 
             <p className="hero-text">
-
-              Manage billing, cash registers, inventory,
-              customers, loyalty points and daily store
-              operations from one simple and powerful POS system.
-
+              BILLQORA is a supermarket POS and billing software
+              designed for retail stores. Manage billing, inventory,
+              customers, loyalty points, cash registers, invoices
+              and sales reports from one simple and powerful POS system.
             </p>
 
 
             {/* =================================================
-                HERO BUTTON
+                HERO BUTTONS
             ================================================= */}
 
             <div className="hero-buttons">
@@ -124,7 +118,6 @@ function App() {
                 href={downloadUrl}
                 download
               >
-
                 Download BILLQORA
 
                 <span>
@@ -132,22 +125,21 @@ function App() {
                 </span>
 
               </a>
+
+
               <a
                 className="primary-button"
                 href={`mailto:${email}?subject=BILLQORA%20Store%20Activation`}
-                
               >
-
                 Request Store ID
 
-                                <span>
+                <span>
                   ?
                 </span>
 
               </a>
 
             </div>
-            
 
 
             {/* =================================================
@@ -155,9 +147,7 @@ function App() {
             ================================================= */}
 
             <p className="windows-text">
-
               Windows desktop application • Automatic updates
-
             </p>
 
 
@@ -184,9 +174,7 @@ function App() {
                   </div>
 
                   <span className="preview-label">
-
                     BILLQORA POS
-
                   </span>
 
                 </div>
@@ -194,15 +182,11 @@ function App() {
 
                 {/* =================================================
                     BILLQORA SCREENSHOT
-
-                    Place your real screenshot here:
-
-                    public/image1.png
                 ================================================= */}
 
                 <img
                   src="/image1.png"
-                  alt="BILLQORA POS software dashboard"
+                  alt="BILLQORA supermarket POS billing software dashboard"
                   className="product-preview-image"
                 />
 
@@ -238,23 +222,17 @@ function App() {
 
 
                 <p>
-
                   Downloading BILLQORA is free, but a valid
-
                   <strong>
                     {" "}Store ID and account activation
                   </strong>
-
                   {" "}are required to use the POS system.
-
                 </p>
 
 
                 <p className="access-subtext">
-
                   Contact us to create your store account,
                   receive your Store ID and get started.
-
                 </p>
 
 
@@ -291,6 +269,7 @@ function App() {
         </section>
 
 
+
         {/* =====================================================
             PRODUCT DEMO
         ===================================================== */}
@@ -314,14 +293,15 @@ function App() {
 
 
               <h2>
-                See BILLQORA in action
+                See BILLQORA Supermarket POS in action
               </h2>
 
 
               <p>
-                From fast billing to inventory, customers,
-                cash register and reports — everything your
-                store needs in one simple POS system.
+                From fast billing to inventory management,
+                customer management, cash registers and sales
+                reports — BILLQORA provides the essential tools
+                your retail store needs in one simple POS system.
               </p>
 
             </div>
@@ -355,10 +335,6 @@ function App() {
 
               {/* =================================================
                   BILLQORA DEMO VIDEO
-
-                  Place video here:
-
-                  public/videos/billqora-demo.mp4
               ================================================= */}
 
               <video
@@ -395,7 +371,7 @@ function App() {
               </span>
 
               <span>
-                📦 Inventory
+                📦 Inventory Management
               </span>
 
               <span>
@@ -409,8 +385,6 @@ function App() {
               <span>
                 ⭐ Loyalty Points
               </span>
-              
-              
 
             </div>
 
@@ -437,14 +411,14 @@ function App() {
 
 
             <h2>
-              Everything your store needs
+              Complete Supermarket POS & Billing Features
             </h2>
 
 
             <p>
-              BILLQORA brings the essential tools for
-              supermarket and retail store management
-              into one easy-to-use system.
+              BILLQORA brings the essential tools for supermarket
+              and retail store management into one easy-to-use
+              billing and POS system.
             </p>
 
           </div>
@@ -467,8 +441,9 @@ function App() {
               </h3>
 
               <p>
-                Create bills quickly with a simple and
-                efficient POS billing interface.
+                Create bills quickly with a simple and efficient
+                POS billing interface designed for everyday
+                supermarket and retail transactions.
               </p>
 
             </div>
@@ -485,12 +460,13 @@ function App() {
               </div>
 
               <h3>
-                Inventory
+                Inventory Management
               </h3>
 
               <p>
-                Manage products and keep track of your
-                store inventory with ease.
+                Manage products and keep track of your store
+                inventory with an easy-to-use inventory management
+                system.
               </p>
 
             </div>
@@ -507,12 +483,13 @@ function App() {
               </div>
 
               <h3>
-                Customers
+                Customer Management
               </h3>
 
               <p>
-                Maintain customer information and easily
-                access billing history.
+                Maintain customer information and easily access
+                customer billing history from your supermarket
+                POS system.
               </p>
 
             </div>
@@ -533,8 +510,8 @@ function App() {
               </h3>
 
               <p>
-                Reward customers with loyalty points based
-                on their purchases.
+                Reward customers with loyalty points based on
+                their purchases and encourage repeat business.
               </p>
 
             </div>
@@ -551,12 +528,12 @@ function App() {
               </div>
 
               <h3>
-                Reports
+                Sales & Business Reports
               </h3>
 
               <p>
-                Understand store performance with useful
-                sales and business reports.
+                Understand store performance with useful sales,
+                billing and business reports for your retail store.
               </p>
 
             </div>
@@ -588,6 +565,100 @@ function App() {
         </section>
 
 
+
+        {/* =====================================================
+            SEO INFORMATION SECTION
+        ===================================================== */}
+
+        <section className="section">
+
+          <div className="section-heading">
+
+            <p className="small-title">
+              BILLQORA SOFTWARE
+            </p>
+
+
+            <h2>
+              Supermarket Billing Software for Retail Stores
+            </h2>
+
+
+            <p>
+              BILLQORA is a modern supermarket POS and retail
+              billing software designed to simplify everyday
+              store operations. It helps businesses manage
+              sales billing, products, inventory, customers,
+              invoices, loyalty points, cash registers and
+              business reports from one centralized system.
+            </p>
+
+          </div>
+
+
+          <div className="feature-grid">
+
+            <div className="feature-card">
+
+              <div className="feature-icon">
+                🛒
+              </div>
+
+              <h3>
+                Retail POS Software
+              </h3>
+
+              <p>
+                BILLQORA provides a simple point-of-sale system
+                for supermarkets and retail businesses that need
+                fast and reliable billing.
+              </p>
+
+            </div>
+
+
+            <div className="feature-card">
+
+              <div className="feature-icon">
+                🧾
+              </div>
+
+              <h3>
+                Retail Billing Software
+              </h3>
+
+              <p>
+                Create invoices and process customer purchases
+                efficiently with an easy-to-use retail billing
+                system.
+              </p>
+
+            </div>
+
+
+            <div className="feature-card">
+
+              <div className="feature-icon">
+                📦
+              </div>
+
+              <h3>
+                Store Management
+              </h3>
+
+              <p>
+                Manage products, inventory, customers, sales and
+                daily supermarket operations from BILLQORA.
+              </p>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+
         {/* =====================================================
             WHY BILLQORA
         ===================================================== */}
@@ -605,13 +676,13 @@ function App() {
 
 
             <h2>
-              Built for everyday retail billing
+              Built for Everyday Supermarket & Retail Billing
             </h2>
 
 
             <p>
-              Designed to keep supermarket billing simple,
-              fast and easy to manage.
+              Designed to keep supermarket and retail store
+              billing simple, fast and easy to manage.
             </p>
 
           </div>
@@ -648,6 +719,7 @@ function App() {
         </section>
 
 
+
         {/* =====================================================
             DOWNLOAD
         ===================================================== */}
@@ -671,7 +743,8 @@ function App() {
 
             <p>
               Download BILLQORA for Windows and get started
-              with a modern supermarket POS system.
+              with a modern supermarket POS and billing system
+              for retail stores.
             </p>
 
 
@@ -697,6 +770,7 @@ function App() {
           </div>
 
         </section>
+
 
 
         {/* =====================================================
@@ -730,7 +804,7 @@ function App() {
               <p>
                 Contact us to create your store account and
                 get your Store ID. We'll help you get BILLQORA
-                ready for your business.
+                ready for your supermarket or retail business.
               </p>
 
             </div>
@@ -830,6 +904,7 @@ function App() {
       </main>
 
 
+
       {/* =====================================================
           FOOTER
       ===================================================== */}
@@ -905,7 +980,7 @@ function App() {
 
 
           <p>
-            Windows POS • Automatic Updates
+            Windows POS • Supermarket Billing Software • Automatic Updates
           </p>
 
         </div>
@@ -917,4 +992,3 @@ function App() {
 }
 
 export default App;
-
