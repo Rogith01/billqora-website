@@ -1,0 +1,12 @@
+[[plugins]]
+  package = "@netlify/plugin-emails" # optional placeholder or omit if unused
+
+[build]
+  publish = "build"
+  command = "npm run build"
+
+# Enable Netlify built-in prerendering for search engine crawlers
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
